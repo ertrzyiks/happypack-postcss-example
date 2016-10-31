@@ -22,10 +22,5 @@ module.exports = {
   output: {
     path: './',
     filename: 'main.packed.js'
-  },
-  postcss: function () {
-    return [require('autoprefixer')({
-      browsers: ['ie 10']
-    })];
   }
 }
